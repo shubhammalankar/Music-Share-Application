@@ -1,0 +1,25 @@
+{
+    "name": "server",
+    "version": "j",
+    "description": "Personal Music App",
+    "main": "app.js",
+    "scripts": {
+        "dev": "nodemon app.js",
+        "start": "node app.js"
+    },
+    "keywords": [],
+    "author": "PP",
+    "license": "ndd",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "firebase-admin": "^10.0.2",
+        "firebase-functions": "^3.19.0",
+        "mongodb": "^4.5.0",
+        "mongoose": "^6.3.0",
+        "nodemon": "^2.0.20"
+    },
+    "repository": "ndjd",
+    "private": null
+}
